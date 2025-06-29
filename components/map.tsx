@@ -166,7 +166,7 @@ export default function Map({ DeviceSelect }: MapProps) {
                     <div className="location-bt">
                         <button type="button" onClick={handleWatchAll}><MapPinned />ภาพรวม</button>
                     </div>
-                    <LongdoMap id="longdo-map" mapKey="0131a4eb6be802aac5d351bb676fdec9" callback={initMap} />
+                    <LongdoMap id="longdo-map" mapKey="ใส่key api หรือจะดึงมา .env" callback={initMap} />
                 </div>
             </div>
         </>
